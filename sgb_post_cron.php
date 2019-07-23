@@ -61,9 +61,9 @@ function post($text,$hash_id,$privacy=0,$c){
 }
 
 
-$username = "khalid";
-$password = "Um3n948222";
-$interval = 1200;
+$username = "USERNAME LO";
+$password = "PASSWORD LO";
+$interval = 1800; // interval post dalam detik (recomendedd > 1800[30 menit] biar ga nyepam)
 $c = get_cookies($username,$password);
 echo "---------------------\n";
 if($c){
